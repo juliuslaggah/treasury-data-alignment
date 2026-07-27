@@ -6,7 +6,6 @@ build-backend = "setuptools.build_meta"
 name = "treasury-data-alignment-api"
 version = "0.1.0"
 description = "Professional treasury account data cleaning, validation and alignment API."
-readme = { text = "Treasury data cleaning and account-alignment backend.", content-type = "text/markdown" }
 requires-python = ">=3.12,<3.15"
 dependencies = [
     "fastapi[standard]>=0.116,<1.0",
